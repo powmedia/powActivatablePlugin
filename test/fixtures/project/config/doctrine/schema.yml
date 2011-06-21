@@ -1,0 +1,18 @@
+User:
+  actAs:
+    powActivatable:    ~
+  columns:
+    id:         { type: integer, primary: true, autoincrement: true }
+    name:       varchar
+
+Video:
+  actAs:
+    powActivatable:   { columnName: is_visible, options: { default: true} }
+  columns:
+    user_id:    integer
+    name:       varchar
+  relations:
+    User:
+      local:        user_id
+      foreign:      id
+      foreignAlias: Videos

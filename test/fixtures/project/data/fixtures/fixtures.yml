@@ -1,0 +1,63 @@
+User:
+  user1:
+    id:   1
+    name: user1
+    is_active: false
+    Videos:      [video1, video4, video6, video7] # 3 active videos
+  user2:
+    id:   2
+    name: user2
+    is_active: true
+  user3:
+    id:   3
+    name: user3
+    is_active: true
+    Videos:      [video2, video3] # 1 active video
+  user4:
+    id:   4
+    name: user4
+    is_active: true
+  user5:
+    id:   5
+    name: user5
+    is_active: false
+    Videos:      [video5] # 0 active videos
+  user6:
+    id:   6
+    name: user6
+    is_active: true
+  user7:
+    id:   7
+    name: user7
+    is_active: true
+
+Video:
+  video1:
+    id:   1
+    name: video1
+    is_visible: false
+  video2:
+    id:   2
+    name: video2
+    is_visible: true
+  video3:
+    id:   3
+    name: video3
+    is_visible: false
+  video4:
+    id:   4
+    name: video4
+    is_visible: true
+  video5:
+    id:   5
+    name: video5
+    is_visible: false
+  video6:
+    id:   6
+    name: video6
+    is_visible: true
+  video7:
+    id:   7
+    name: video7
+    is_visible: true
+
